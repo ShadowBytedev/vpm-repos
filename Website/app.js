@@ -3,6 +3,7 @@ import { baseLayerLuminance, StandardLuminance } from 'https://unpkg.com/@fluent
 const LISTING_URL = "{{ listingInfo.Url }}";
 
 const PACKAGES = {
+{{~ for package in packages ~}}
   "{{ package.Name }}": {
     name: "{{ package.Name }}",
     displayName: "{{ if package.DisplayName; package.DisplayName; end; }}",
@@ -13,16 +14,20 @@ const PACKAGES = {
       url: "{{ if package.Author.Url; package.Author.Url; end; }}",
     },
     dependencies: {
-      "{{ dependency.Name }}": "{{ dependency.Version }}",
+      {{~ for dependency in package.Dependencies ~}}
+        "{{ dependency.Name }}": "{{ dependency.Version }}",
+      {{~ end ~}}
     },
     keywords: [
-      "{{ keyword }}",
+      {{~ for keyword in package.Keywords ~}}
+        "{{ keyword }}",
+      {{~ end ~}}
     ],
     license: "{{ package.License }}",
     licensesUrl: "{{ package.LicensesUrl }}",
   },
+{{~ end ~}}
 };
-
 
 const setTheme = () => {
   const isDarkTheme = () => window.matchMedia("(prefers-color-scheme: dark)").matches;
