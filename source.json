@@ -2,18 +2,18 @@
     "name": "Shadow Byte Development VPM Repo",
     "id": "dev.shadowbyte.vpm",
     "url": "https://vpm.shadowbyte.dev/index.json",
-    "author": {
+    "author":{
         "email": "contact@shadowbyte.dev",
         "name": "Shadow Byte Development",
         "url": "https://shadowbyte.dev/"
     },
     "description": "Shadow Byte Development's VPM packages",
-    "infoLink": {
+    "infoLink":{
         "url": "https://shadowbyte.dev/",
         "text": "View our Website"
     },
-    "bannerUrl": "",
-    "githubRepos": [
+    "bannerUrl":"",
+    "githubRepos":[
         "ShadowBytedev/dev.shadowbyte.sdk",
         "ShadowBytedev/Auto-Lighting-Tool"
     ]
