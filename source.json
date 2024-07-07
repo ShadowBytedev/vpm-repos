@@ -1,20 +1,37 @@
 {
-    "name": "Shadow Byte Development VPM Repo",
-    "id": "dev.shadowbyte.vpm",
-    "url": "https://vpm.shadowbyte.dev/index.json",
+    "name":"Shadow Byte Development VPM Repo",
+    "id":"dev.shadowbyte.vpm",
+    "url":"https://vpm.shadowbyte.dev/index.json",
     "author":{
-        "email": "contact@shadowbyte.dev",
-        "name": "Shadow Byte Development",
-        "url": "https://shadowbyte.dev/"
+        "email":"contact@shadowbyte.dev",
+        "name":"Shadow Byte Development",
+        "url":"https://shadowbyte.dev/"
     },
-    "description": "Shadow Byte Development's VPM packages",
+    "description":"A listing of Shadow Byte Development's VPM packages",
     "infoLink":{
-        "url": "https://shadowbyte.dev/",
-        "text": "View our Website"
+        "url":"https://shadowbyte.dev/",
+        "text":"View our Website"
     },
     "bannerUrl":"",
     "githubRepos":[
         "ShadowBytedev/dev.shadowbyte.sdk",
-        "ShadowBytedev/Auto-Lighting-Tool"
+        "ShadowBytedev/dev.shadowbyte.autolightingtool"
+    ],
+
+    "packages":[
+        {
+            "name":"Shadow Byte SDK",
+            "releases":[
+                "https://github.com/ShadowBytedev/dev.shadowbyte.sdk/releases/download/7.0.1/dev.shadowbyte.sdk.zip",
+                "https://github.com/ShadowBytedev/dev.shadowbyte.sdk/releases/download/7.0.1/dev.shadowbyte.sdk.zip"
+            ]
+        },
+        {
+            "name":"Auto Lighting Tool",
+            "releases":[
+                "https://github.com/ShadowBytedev/dev.shadowbyte.autolightingtool/releases/download/2.0.0/dev.shadowbyte.autolightingtool.zip"                
+            ]
+        }
     ]
 }
+
