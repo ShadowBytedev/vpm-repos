@@ -20,14 +20,14 @@
 
     "packages":[
         {
-            "name":"Shadow Byte SDK",
+            "name":"dev.shadowbyte.sdk",
             "releases":[
                 "https://github.com/ShadowBytedev/dev.shadowbyte.sdk/releases/download/7.0.1/dev.shadowbyte.sdk.zip",
                 "https://github.com/ShadowBytedev/dev.shadowbyte.sdk/releases/download/7.0.1/dev.shadowbyte.sdk.zip"
             ]
         },
         {
-            "name":"Auto Lighting Tool",
+            "name":"dev.shadowbyte.autolightingtool",
             "releases":[
                 "https://github.com/ShadowBytedev/dev.shadowbyte.autolightingtool/releases/download/2.0.0/dev.shadowbyte.autolightingtool.zip"                
             ]
