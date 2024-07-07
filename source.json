@@ -11,11 +11,7 @@
     "description":"A listing of Shadow Byte Development's VPM packages",
     "infoLink":{
         "url":"https://shadowbyte.dev/",
-        "text":"View our Website",
-        "url":"https://shadowbytedev.gumroad.com/",
-        "text":"View our Gumroad",
-        "url":"https://shadowhub.dev/",
-        "text":"Discord"
+        "text":"View our Website"
     },
     "bannerUrl":"",
     "githubRepos":[
