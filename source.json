@@ -1,27 +1,26 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
+    "name":"Shadow Byte Development VPM Repo",
+    "id":"dev.shadowbyte.vpm",
+    "url":"https://shadowbytedev.github.io/VPM/index.json",
     "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+        "email":"contact@shadowbyte.dev",
+        "name":"Shadow Byte Development",
+        "url":"https://shadowbyte.dev/"
     },
-    "description":"Example listing of VRChat packages",
+    "description":"A listing of Shadow Byte Development's VPM packages",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
-        "text":"View on GitHub"
+        "url":"https://shadowbyte.dev/",
+        "text":"View our Website"
     },
-    "bannerUrl":"banner.png",
+    "bannerUrl":"",
     "githubRepos":[
-        "vrchat-community/clientsim"
+        "ShadowBytedev/dev.shadowbyte.sdk"
     ],
     "packages":[
         {
-            "name":"com.vrchat.udonsharp",
+            "name":"dev.shadowbyte.sdk",
             "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
+                "https://github.com/ShadowBytedev/dev.shadowbyte.sdk/releases/download/v7.0.0/dev.shadowbyte.sdk.zip"
             ]
         }
     ]
