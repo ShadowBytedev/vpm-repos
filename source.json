@@ -16,6 +16,5 @@
     "githubRepos": [
         "ShadowBytedev/dev.shadowbyte.sdk",
         "ShadowBytedev/Auto-Lighting-Tool"
-    ],
-    "packages": [""]
+    ]
 }
