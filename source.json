@@ -13,7 +13,7 @@
         "url":"https://shadowbyte.dev/",
         "text":"View our Website"
     },
-    "bannerUrl":"",
+    "bannerUrl":"banner.png",
     "githubRepos":[
         "ShadowBytedev/dev.shadowbyte.sdk",
         "ShadowBytedev/dev.shadowbyte.autolightingtool"
